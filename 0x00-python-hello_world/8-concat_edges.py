@@ -2,6 +2,6 @@
 str = "Python is an interpreted, inte
 ractive, object-oriented programming
 \
-    language that combines remarkable power with very clear syntax"
+ language that combines remarkable power with very clear syntax"
 str = str[39:66] + ' with Python'
 print(str)

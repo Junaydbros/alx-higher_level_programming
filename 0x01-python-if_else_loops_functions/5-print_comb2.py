@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-for num in range(0, 10):
-    for pvalue in range(0, 10):
-        print("{}{}, ".format(num, pvalue), end="")
+for num in range(0, 100):
+    print("{:02d}, ".format(num), end="")
 
-        if num + pvalue == 18:
-            print("{}{}".format(num, pvalue))
-        else:
-            continue
+    if num == 99:
+        print("{:02d}".format(num))
+    else:
+        continue

@@ -1,2 +1,2 @@
-for a in range(97, 123):
-        print(a)
+for char in range(ord('a'), ord('z') + 1):
+        print(chr(char), end="")

@@ -8,10 +8,10 @@ if __name__ == "__main__":
     if len(argv) == 1:
         print("arguments.")
     elif len(argv) > 2:
-        print("arguments: ")
+        print("arguments:")
     else:
-        print("argument: ")
+        print("argument:")
 
     #arg = sys.argv[1:]
-    for i in enumerate(argv):
-        print("{}: ".format((i + 1), argv))
+    for i in range(len(argv)):
+        print("{}: ".format((i + 1), argv[i]))

@@ -2,4 +2,4 @@
 
 def magic_calculation(a, b):
     dis.dis(magic_calculation)
-    return (a, b)
+    return (98 + (a ** b))

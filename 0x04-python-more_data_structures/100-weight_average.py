@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def weight_average(my_list[]):
+def weight_average(my_list=[]):
     nom = 0
     denom = 0
 

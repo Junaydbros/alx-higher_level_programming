@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def print_matrix_integer(matrix[[]]):
+def print_matrix_integer(matrix=[[]]):
     for a in range(len(matrix)):
         cnt = 0
         for b in matrix[a]:
